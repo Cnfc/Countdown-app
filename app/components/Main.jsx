@@ -1,5 +1,6 @@
 var React = require('react');
-var Navigation= require('Navigation');
+var Navigation = require('Navigation');
+var Clock = require('Clock');
 
 
 
@@ -9,6 +10,7 @@ var Main = (props) => {
       <div>
         <div>
           <Navigation/>
+          <Clock/>
           <p>Main.jsx Rendered</p>
           {props.children}
         </div>

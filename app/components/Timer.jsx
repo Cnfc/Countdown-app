@@ -1,19 +1,10 @@
 var React = require('react');
-var {Link, IndexLink} = require('react-router');
 
-var Timer = React.createClass({
-  },
-  render:function(){
-    return(
-        <div>
-          Created by <Link to="/">Andrew Mead</Link>
-        </div>
-      </div>
-    )
+var Timer = React.createClass ({
+  render: function () {
+    return <p>Timer</p>
   }
 });
-
-
 
 
 module.exports = Timer;

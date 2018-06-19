@@ -10,7 +10,6 @@ var Main = (props) => {
       <div>
         <div>
           <Navigation/>
-          <Clock/>
           <p>Main.jsx Rendered</p>
           {props.children}
         </div>

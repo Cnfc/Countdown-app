@@ -19,7 +19,7 @@ describe('Clock', () => {
   });
 
   describe('formatSeconds', () => {
-    it("shoud sormat seconds", () => {
+    it("shoud format seconds", () => {
       var clock = TestUtils.renderIntoDocument(<Clock/>);
       var seconds = 615;
       var expected = '10:15';
@@ -28,7 +28,7 @@ describe('Clock', () => {
       expect(actual).toBe(expected);
     });
 
-    it("shoud sormat seconds", () => {
+    it("shoud format seconds", () => {
       var clock = TestUtils.renderIntoDocument(<Clock/>);
       var seconds = 61;
       var expected = '01:01';

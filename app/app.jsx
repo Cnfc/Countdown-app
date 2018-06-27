@@ -7,6 +7,7 @@ var Navigation = require('Navigation');
 var Clock = require('Clock');
 var Timer = require('Timer');
 var Countdown = require('Countdown');
+var addNews = require('addNews');
 
 // Load foundation
 require('style!css!foundation-sites/dist/css/foundation.min.css')
